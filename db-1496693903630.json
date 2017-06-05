@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": 47761424,
+      "email": "Scot.Heller8@yahoo.com",
+      "firstName": "Delores",
+      "lastName": "Cartwright"
+    },
+    {
+      "id": 16136465,
+      "email": "Kaci.Frami75@gmail.com",
+      "lastName": "Mayer",
+      "firstName": "Delphine"
+    },
+    {
+      "id": 26649995,
+      "email": "Berniece_Bartoletti@hotmail.com",
+      "firstName": "Madelynn"
+    },
+    {
+      "id": 35241271,
+      "email": "Enrico_Jakubowski56@hotmail.com",
+      "lastName": "Wolff",
+      "firstName": "Jordan"
+    }
+  ]
+}
