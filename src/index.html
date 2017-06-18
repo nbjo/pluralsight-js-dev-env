@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>The World!</title>
+    <% if (htmlWebpackPlugin.options.trackJSToken) { %>
+    <!-- BEGIN TRACKJS -->
+    <script type="text/javascript">window._trackJs = { token: '<%=htmlWebpackPlugin.options.trackJSToken%>' };</script>
+    <script type="text/javascript" src="https://cdn.trackjs.com/releases/current/tracker.js"></script>
+    <!-- END TRACKJS -->
+    <% } %>
+
+  <!-- BEGIN TRACKJS -->
+  <script type="text/javascript">window._trackJs = { token: '1e7c30b9eebd414483ec05be2c8978a0' };</script>
+  <script type="text/javascript" src="https://cdn.trackjs.com/releases/current/tracker.js"></script>
+  <!-- END TRACKJS -->
+  <meta charset="utf-8" />
+  <title>The World!</title>
 </head>
 <body>
     <h1>Users</h1>
